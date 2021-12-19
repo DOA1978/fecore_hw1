@@ -1,0 +1,16 @@
+
+body {
+  font-family: 'Playfair Display',
+  serif;
+  font-size: 12pt;
+  } 
+
+ul {
+  list-style: none;
+  }
+
+  a:hover {
+    color: #e61212f1;
+    background-color: #2ca314;
+    }
+    
