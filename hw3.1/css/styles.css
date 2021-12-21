@@ -1,0 +1,18 @@
+
+body {
+  font-family: 'Playfair Display',
+  serif;
+  font-size: 16px;
+  } 
+
+ul {
+  list-style: none;
+  }
+
+.main-menu-link:hover {
+  color: red;
+  }
+  h1 {
+    color: blue;
+  }
+    
