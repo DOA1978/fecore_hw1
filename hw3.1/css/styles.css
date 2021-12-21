@@ -1,18 +1,20 @@
 
 body {
-  font-family: 'Playfair Display',
-  serif;
+  font-family: "Playfair Display", "Roboto",
+  sans-serif;
   font-size: 16px;
   } 
 
 ul {
   list-style: none;
+  
   }
 
 .main-menu-link:hover {
-  color: red;
+  color: rgb(255, 0, 0);
   }
-  h1 {
-    color: blue;
+
+  .main-lifestyle {
+    width: 470px;
   }
-    
+  
