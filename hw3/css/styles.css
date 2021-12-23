@@ -1,0 +1,36 @@
+body {
+  font-family: 'Playfair Display',
+  sans-serif;
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.header-nav-menu {
+list-style: none;
+}
+
+.header-nav-menu a {
+  color: #626262;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.section-item {
+  list-style: none;
+}
+
+.lifestyle-list p.logo,
+.photodiary-list p.logo {
+font-family: 'Ubuntu Condensed',
+sans-serif;
+color: #b4ad9e;
+text-transform: uppercase;
+font-size: 14px;
+line-height: 17px;
+}
+
+.lifestyle-list h3 {
+font-size: 30px;
+line-height: 36px;
+}
