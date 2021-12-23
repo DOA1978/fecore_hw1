@@ -14,13 +14,13 @@ ul {
   }
 
 <<<<<<< HEAD
-.main-menu-link:hover {
-  color: red;
+.header-nav-menu-linku-link:hover {
+  color: rgb(255, 0, 0);
   }
   h1 {
     color: blue;
 =======
-  .main-menu-link:hover {
+  .header-nav-menu-linku-link:hover {
     color: rgb(255, 0, 0);
     background-color: rgb(0, 0, 0);
   }

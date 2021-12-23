@@ -10,8 +10,8 @@ ul {
   
   }
 
-.main-menu-link:hover {
-  color: rgb(255, 0, 0);
+.header-nav-menu-item a:hover {
+  color: #ff0000;
   }
 
   .main-lifestyle {
