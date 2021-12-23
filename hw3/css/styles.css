@@ -20,8 +20,7 @@ list-style: none;
   list-style: none;
 }
 
-.lifestyle-list p.logo,
-.photodiary-list p.logo {
+p.logo {
 font-family: 'Ubuntu Condensed',
 sans-serif;
 color: #b4ad9e;
