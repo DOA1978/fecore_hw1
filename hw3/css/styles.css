@@ -29,7 +29,8 @@ font-size: 14px;
 line-height: 17px;
 }
 
-.lifestyle-list h3 {
+.lifestyle-list h3,
+.photodiary-list h3 {
 font-size: 30px;
 line-height: 36px;
 }
