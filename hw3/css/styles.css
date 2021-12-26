@@ -6,6 +6,10 @@ body {
   line-height: 24px;
 }
 
+.header-nav-menu-item {
+  display: inline-block;
+}
+
 .header-nav-menu {
 list-style: none;
 }
