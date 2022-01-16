@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: 'Playfair Display',
   sans-serif;
@@ -5,18 +15,43 @@ body {
   font-size: 14px;
   line-height: 24px;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 901px;
+  margin: 0 auto;
+}
+.header-nav {
+  padding: 76px 0;
+}
 
 .header-nav-menu {
-list-style: none;
-}
-.header-nav-menu-item {
-  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
+.header-nav-menu-item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 100px;
+  }
+
+  .header-nav-menu-item li:not(:last-child){
+  margin-right: 100px;
+  }
+
 .header-nav-menu a {
-  color: #626262;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.header-nav-menu-item-lifestyle {
+  color: #03a9f4;
 }
 
 .section-item {
@@ -24,7 +59,7 @@ list-style: none;
 }
 
 p.logo {
-font-family: 'Ubuntu Condensed',
+  font-family: 'Ubuntu Condensed',
 sans-serif;
 color: #b4ad9e;
 text-transform: uppercase;
@@ -34,6 +69,6 @@ line-height: 17px;
 
 .lifestyle-list h3,
 .photodiary-list h3 {
-font-size: 30px;
-line-height: 36px;
+  font-size: 30px;
+  line-height: 36px;
 }
