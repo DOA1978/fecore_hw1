@@ -15,6 +15,7 @@ body {
   font-size: 14px;
   line-height: 24px;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -22,7 +23,7 @@ img {
 }
 
 .container {
-  width: 901px;
+  width: 900px;
   margin: 0 auto;
 }
 .header-nav {
@@ -39,14 +40,13 @@ img {
 .header-nav-menu-item {
   display: inline-block;
   vertical-align: middle;
+  }
+
+  .header-nav-menu li:not(:last-child) {
   margin-right: 100px;
   }
 
-  .header-nav-menu-item li:not(:last-child){
-  margin-right: 100px;
-  }
-
-.header-nav-menu a {
+  .header-nav-menu a {
   text-transform: uppercase;
   text-decoration: none;
   }
@@ -69,6 +69,7 @@ img {
 
 p{
   font-size: 14px;
+  line-height: 24px;
 }
 p.logo {
   font-family: 'Ubuntu Condensed',
@@ -82,15 +83,17 @@ line-height: 17px;
 .lifestyle-list,
 .photodiary-list {
   display: inline-block;
-  width: 421px;
-  margin-right: 61px;
+  width: 420px;
+  margin-right: 60px;
+  
 }
 
-.lifestyle-list,
-.photodiary-list:nth-child(1n){
-  margin-right: 0;
+.lifestyle-list:nth-child(2n) {
+  margin-right: 0px;
 }
-
+.photodiary-list:nth-child(2n) {
+  margin-right: 0px;
+}
 
 .lifestyle-list h3,
 .photodiary-list h3 {
@@ -98,6 +101,6 @@ line-height: 17px;
   line-height: 36px;
 }
 
-button {
-  margin-right: 100px;
+.button {
+  
 }
