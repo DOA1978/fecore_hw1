@@ -107,10 +107,18 @@ p.lifestyle-wrapper-last {
 }
 
 .lifestyle-list:nth-child(2n) {
-  margin-right: 0px;
+  margin-right: 0;
 }
+
 .photodiary-list:nth-child(2n) {
-  margin-right: 0px;
+  margin-right: 0;
+}
+.photodiary-list:nth-last-child(-n +2) {
+  margin-right: 0;
+}
+
+.lifestyle-list:nth-last-child(-n +2) {
+  margin-bottom: 0;
 }
 
 .lifestyle-list h3,
@@ -125,7 +133,7 @@ p.lifestyle-wrapper-last {
   display: block;
   font-size: 20px;
   line-height: 24px;
-  padding: 22px 32git statuspx;
+  padding: 22px 32px;
   background-color: #ffffff;
   color: #626262;
   margin: 50px auto 70px auto;
