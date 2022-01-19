@@ -77,6 +77,15 @@ img {
 }
 
 p.logo {
+  font-family: 'Ubuntu Condensed',
+sans-serif;
+color: #b4ad9e;
+text-transform: uppercase;
+font-size: 14px;
+line-height: 17px;
+}
+
+p.logo {
   margin-bottom: 26px;
 }
 
@@ -85,13 +94,9 @@ p {
   font-size: 14px;
   line-height: 24px;
 }
-p.logo {
-  font-family: 'Ubuntu Condensed',
-sans-serif;
-color: #b4ad9e;
-text-transform: uppercase;
-font-size: 14px;
-line-height: 17px;
+
+p.lifestyle-wrapper-last {
+  margin-bottom: 0;
 }
 
 .lifestyle-list,
@@ -110,19 +115,18 @@ line-height: 17px;
 
 .lifestyle-list h3,
 .photodiary-list h3 {
+  color: #626262;
   margin-bottom: 36px;
   font-size: 30px;
   line-height: 36px;
-}
+  }
 
 .button {
-  display: inline-block
-
+  display: block;
   font-size: 20px;
   line-height: 24px;
   padding: 20px;
   background-color: #ffffff;
   color: #626262;
-  margin:0 auto 70px auto;
-  
-}
+  margin: 50px auto 70px auto;
+  }
