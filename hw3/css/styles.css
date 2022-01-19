@@ -26,6 +26,8 @@ img {
   width: 900px;
   margin: 0 auto;
 }
+/*header*/
+
 .header-nav {
   margin-bottom: 102px;
   margin-top: 76px;
@@ -60,15 +62,37 @@ img {
 .header-nav-menu-item-lifestyle {
   color: #03a9f4;
 }
+/*section*/
 
-.section-item {
+.section-lifestyle {
   list-style: none;
   margin: 0;
   padding: 0;
   font-size: 0;
+  }
+.section-photodiary {
+list-style: none;
+margin: 0;
+padding: 0;
+font-size: 0;
 }
 
-.lifestyle-wrapper {
+.section-lifestyle-next {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  }
+
+  .section-lifestyle {
+    margin-bottom: 130px;
+  }
+
+  .section-photodiary {
+    margin-bottom: 130px;
+  }
+
+  .lifestyle-wrapper {
   margin-bottom: 28px;
 }
 
@@ -90,7 +114,6 @@ p.logo {
 }
 
 p {
-  margin-bottom: 130px;
   font-size: 14px;
   line-height: 24px;
 }
@@ -104,8 +127,16 @@ p.lifestyle-wrapper-last {
   display: inline-block;
   width: 420px;
   margin-right: 60px;
-}
+  }
 
+.lifestyle-list h3,
+.photodiary-list h3 {
+  color: #626262;
+  margin: 0 0 36px 0;
+  font-size: 30px;
+  line-height: 36px;
+  }
+  
 .lifestyle-list:nth-child(2n) {
   margin-right: 0;
 }
@@ -114,20 +145,12 @@ p.lifestyle-wrapper-last {
   margin-right: 0;
 }
 .photodiary-list:nth-last-child(-n +2) {
-  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .lifestyle-list:nth-last-child(-n +2) {
   margin-bottom: 0;
 }
-
-.lifestyle-list h3,
-.photodiary-list h3 {
-  color: #626262;
-  margin-bottom: 36px;
-  font-size: 30px;
-  line-height: 36px;
-  }
 
 .button {
   display: block;
