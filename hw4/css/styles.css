@@ -13,3 +13,58 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+body {
+font-family: 'Open Sans',
+sans-serif;
+font-family: 'Roboto',
+sans-serif;
+font-size: 18px;
+line-height: 26px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header-nav-menu {
+  list-style: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  }
+
+.site-logo {
+  float: left;
+  font-size:  30px;
+  line-height: 32px;
+  font-family: "Roboto 300";
+  color: #555252;
+  text-transform: uppercase;
+  margin-left: 30px;
+  margin-right: 550px;
+  margin-top: 40px;
+  }
+
+.header-nav-menu li {
+  float: left;
+  font-family: 'Open Sans 700';
+  font-size: 14px;
+  line-height: 11px;
+  color: #0f0105;
+  margin-top: 38px;
+}
+
+.header-nav-menu li:not(:last-child) {
+  margin-right: 34px;
+}
+
+.featured-section h2 {
+  font-size: 48px;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin: 0 auto;
+
+}
+
