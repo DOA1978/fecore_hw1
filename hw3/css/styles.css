@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: 'Playfair Display',
   sans-serif;
@@ -6,22 +16,92 @@ body {
   line-height: 24px;
 }
 
-.header-nav-menu {
-list-style: none;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-.header-nav-menu a {
-  color: #626262;
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+/*header*/
+
+.header-nav {
+  margin-bottom: 102px;
+  margin-top: 76px;
+}
+
+.header-nav-menu {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav-menu-item {
+  display: inline-block;
+  vertical-align: middle;
+  }
+
+  .header-nav-menu li:not(:last-child) {
+  margin-right: 100px;
+  }
+
+  .header-nav-menu a {
   text-transform: uppercase;
   text-decoration: none;
+  }
+
+  .header-nav-menu a:hover,
+  .header-nav-menu a:focus {
+    color: #f00a0a;
+  }
+
+.header-nav-menu-item-lifestyle {
+  color: #03a9f4;
+}
+/*section*/
+
+.section-lifestyle {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  }
+.section-photodiary {
+list-style: none;
+margin: 0;
+padding: 0;
+font-size: 0;
 }
 
-.section-item {
+.section-lifestyle-next {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  }
+
+  .section-lifestyle {
+    margin-bottom: 130px;
+  }
+
+  .section-photodiary {
+    margin-bottom: 130px;
+  }
+
+  .lifestyle-wrapper {
+  margin-bottom: 28px;
+}
+
+.photodiary-wrapper {
+  margin-bottom: 28px;
 }
 
 p.logo {
-font-family: 'Ubuntu Condensed',
+  font-family: 'Ubuntu Condensed',
 sans-serif;
 color: #b4ad9e;
 text-transform: uppercase;
@@ -29,8 +109,56 @@ font-size: 14px;
 line-height: 17px;
 }
 
+p.logo {
+  margin-bottom: 26px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+p.lifestyle-wrapper-last {
+  margin-bottom: 0;
+}
+
+.lifestyle-list,
+.photodiary-list {
+  display: inline-block;
+  width: 420px;
+  margin-right: 60px;
+  }
+
 .lifestyle-list h3,
 .photodiary-list h3 {
-font-size: 30px;
-line-height: 36px;
+  color: #626262;
+  margin: 0 0 36px 0;
+  font-size: 30px;
+  line-height: 36px;
+  }
+  
+.lifestyle-list:nth-child(2n) {
+  margin-right: 0;
 }
+
+.photodiary-list:nth-child(2n) {
+  margin-right: 0;
+}
+.photodiary-list:nth-last-child(-n +2) {
+  margin-bottom: 0;
+}
+
+.lifestyle-list:nth-last-child(-n +2) {
+  margin-bottom: 0;
+}
+
+.button {
+  display: block;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 22px 32px;
+  margin: 50px auto 70px auto;
+  background-color: #ffffff;
+  color: #626262;
+  cursor: pointer;
+  }
