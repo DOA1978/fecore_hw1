@@ -37,6 +37,8 @@ img {
 }
 
 .header {
+  padding-top: 36px;
+  padding-bottom: 30px;
   background-image: linear-gradient(rgba(0, 0, 2, 0.522), rgba(0, 0, 2, 0.522)),
   url("../images/header/Rectangle\ 1.jpg");
   background-repeat: no-repeat;
@@ -53,7 +55,7 @@ img {
   display: inline-block;
   width: 82px;
   vertical-align: middle;
- }
+}
 
 .logotype::first-letter {
   color: #1abc9c;
@@ -61,7 +63,7 @@ img {
 
 .navigation {
   font-size: 0;
-  margin-bottom: 240px;
+  padding-bottom: 250px;
 }
 
 .navigation__list {
@@ -104,6 +106,22 @@ img {
   margin-bottom: 24px;
 }
 
+h1::before {
+  display: block;
+  width: 102px;
+  height: 102px;
+  background: #1abc9c;
+  content: "";
+}
+
+h1::after {
+  display: block;
+  width: 102px;
+  height: 102px;
+  background: #1abc9c;
+  content: "";
+}
+
 .header__description {
   font-weight: 300;
   font-size: 24px;
@@ -118,6 +136,7 @@ img {
   color: #525252;
   font-size: 48px;
   font-weight: 900;
+  padding-top: 100px;
   }
 
 h2::after {
@@ -128,4 +147,23 @@ h2::after {
   margin-right: 472px;
   margin: 30px auto 92px auto;
   content: "";
+}
+
+.new-collection__item-list {
+  display: inline-block;
+  width: 252px;
+}
+
+.new-collection__item-list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.new-collection__item-list-price {
+  display: inline-block;
+  width: 252px;
+  text-transform: uppercase;
+}
+
+.new-collection__item-list-price {
+  margin-right: 30px;
 }
